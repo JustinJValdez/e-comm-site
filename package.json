@@ -1,0 +1,19 @@
+{
+  "name": "e-comm-site",
+  "version": "1.0.0",
+  "description": "E-comm-practice site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chec/commerce.js": "^2.8.0",
+    "next": "^12.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
