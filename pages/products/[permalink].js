@@ -32,9 +32,9 @@ export async function getStaticPaths() {
 }
 
 export default function ProductPage({ product }) {
-  const { setCart } = useCartDispatch()
+  const {setCart} = useCartDispatch()
 
-  const addToCart = () => commerce.cart.add(product.id).then(({cart}) => setCart(cart));
+  const addToCart = () => commerce.cart.add(product.id).then(({ cart }) => setCart(cart));
   
   return (
     <React.Fragment>
